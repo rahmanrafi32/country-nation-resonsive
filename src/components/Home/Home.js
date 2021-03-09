@@ -14,7 +14,7 @@ const Home = () => {
         })
     },[])
     return (
-        <div className="container g-5">
+        <div className="container">
             <div className='country-container'>
             {
                 countries.map(country=><Country country={country}/>)

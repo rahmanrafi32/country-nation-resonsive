@@ -15,7 +15,7 @@ const Home = () => {
     },[])
     return (
         <div className="container">
-            <div className='country-container'>
+            <div className='row'>
             {
                 countries.map(country=><Country country={country}/>)
             }

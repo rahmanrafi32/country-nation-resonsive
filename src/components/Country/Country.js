@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Country = ({country}) => {
     const {name,flag}=country;
     return (
-        <div className='container'>
+        <div className='container col-md-4'>
             <div className="card m-3" style={{width: "18rem"}}>
                 <img src={flag} className="card-img-top" alt="..."/>
                 <div className="card-body text-center">
